@@ -59,19 +59,6 @@ function all_content_types_node_info() {
       'min_word_count' => '0',
       'help' => '',
     ),
-    'primary_page' => array(
-      'name' => t('Primary Page (Old)'),
-      'module' => 'features',
-      'description' => t('Primary Page content type, created by Paul on Feb. 13, 2012.
-
-No longer going to use as of March 7, 2012'),
-      'has_title' => '1',
-      'title_label' => t('Title'),
-      'has_body' => '1',
-      'body_label' => t('Body'),
-      'min_word_count' => '0',
-      'help' => '',
-    ),
     'public_content' => array(
       'name' => t('Public Content'),
       'module' => 'features',

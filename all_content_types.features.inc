@@ -81,17 +81,6 @@ function all_content_types_node_info() {
       'min_word_count' => '0',
       'help' => '',
     ),
-    'video' => array(
-      'name' => t('Video'),
-      'module' => 'features',
-      'description' => t('This is the video content type, created by Paul on 02/12/2012'),
-      'has_title' => '1',
-      'title_label' => t('Title'),
-      'has_body' => '1',
-      'body_label' => t('Body'),
-      'min_word_count' => '0',
-      'help' => '',
-    ),
   );
   return $items;
 }
